@@ -4,6 +4,7 @@ body {
 	color: #424242;
 	font-family: montserrat;
 	text-align: center;
+	text-shadow: #000000 0px 0px 40px 
 }
 
 h1 {
@@ -12,6 +13,5 @@ h1 {
 }
 
 h2 {
-	color: #00d2ff !important;
+	color: #1C63FF !important;
 }
-	
