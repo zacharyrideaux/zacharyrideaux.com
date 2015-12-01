@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body {
+	color: #424242;
+	font-family: montserrat;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	font-family: montserrat;
+}
+
+h2 {
+	color: #00d2ff !important;
+}
+	
