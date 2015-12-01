@@ -1,17 +1,24 @@
 @charset "UTF-8";
 
+html {
+	background-color: #EEEEEE
+}
+
 body {
-	color: #424242;
+	
 	font-family: montserrat;
 	text-align: center;
-	text-shadow: #000000 0px 0px 40px 
+	text-shadow: #000000 0px 2px 2px 
+	
 }
 
 h1 {
 	text-align: center;
 	font-family: montserrat;
+	color: #424242;
 }
 
 h2 {
-	color: #1C63FF !important;
+	color: #00d2ff;
 }
+
