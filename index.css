@@ -5,15 +5,14 @@ html {
 }
 
 body {
-	
+	padding-left: 50px;
+	padding-top: 20px;
 	font-family: montserrat;
-	text-align: center;
-	text-shadow: #000000 0px 2px 2px 
-	
+	text-shadow: #000000 0px 2px 2px
 }
 
 h1 {
-	text-align: center;
+	text-align: left;
 	font-family: montserrat;
 	color: #424242;
 }
@@ -21,4 +20,5 @@ h1 {
 h2 {
 	color: #00d2ff;
 }
+
 
