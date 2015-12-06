@@ -1,14 +1,13 @@
 @charset "UTF-8";
 
 html {
-	background-color: #EEEEEE
+	background-color: #FFFFFF
 }
+
 
 body {
 	padding-left: 50px;
 	padding-top: 10px;
-	font-family: montserrat;
-	text-shadow: #000000 0px 2px 2px
 }
 
 h1 {
@@ -18,7 +17,12 @@ h1 {
 }
 
 h2 {
-	color: #00d2ff;
+	color: #212121;
+	background: #EEEEEE;
+	padding-left: 10px;
+	padding-top: 5px;
+	font: 20px "Helvetica-Neue", Helvetica;
 }
+
 
 
