@@ -1,39 +1,5 @@
 @charset "UTF-8";
 
 html {
-	background-color: #FFFFFF
-}
-
-
-body {
-	padding-left: 50px;
-	padding-top: 10px;
-}
-
-h1 {
-	text-align: left;
-	font-family: montserrat;
-	color: #424242;
-}
-
-p {
-	color: #FFFFFF;
-	text-align: left;
-	background: #E91E63;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-bottom: 5px;
-	padding-top: 5px;
-	font: 20px "Helvetica-Neue", Helvetica;
-}
-
-p2 {
-	color: #212121;
-	background: #EEEEEE;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	font: 20px "Helvetica-Neue", Helvetica;
-	text-align: left;
+	background-color: #330000
 }
