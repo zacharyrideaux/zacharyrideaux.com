@@ -2,12 +2,14 @@
 
 html {
 	background-color: #FFFFFF;
+	text-shadow: 2px 2px #000000;
 }
 
 h1 {
 	font-family: 'Paytone One';
 	color: #000000;
 	text-align: center;
+	
 }
 
 #smiley {
