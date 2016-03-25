@@ -5,6 +5,8 @@ html {
 }
 
 h1 {
+	font-family: 'Paytone One';
 	color: #000000;
-	text-align: center;
+	text-align: left;
+	padding-left: 15px;
 }
