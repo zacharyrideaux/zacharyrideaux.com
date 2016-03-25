@@ -6,15 +6,17 @@ html {
 }
 
 h1 {
-	font-family: 'Paytone One';
+	font-family: 'Helvetica Neue';
 	color: #000000;
-	text-align: center;
+	text-align: left;
+	padding: 15px;
 }
 
 h2 {
-	font-family: 'Paytone One';
+	font-family: 'Arial';
 	color: #000000;
-	text-align: center;
+	text-align: left;
+	padding: 15px;
 }
 
 #smiley {
