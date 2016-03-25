@@ -7,14 +7,11 @@ html {
 h1 {
 	font-family: 'Paytone One';
 	color: #000000;
-	display: block;
-    	margin-left: auto;
-    	margin-right: auto
-	padding-left: 15px;
+	text-align: center;
 }
 
 #smiley {
 	display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
 }
