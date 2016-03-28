@@ -7,14 +7,25 @@ html {
 #header {
 	line-height: 12px;
 	font-family: 'Lato', sans-serif;
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 32px;
 	color: #000000;
 	text-align: left;
 	padding: 20px;
 }
 
+#links {
+	line-height: 12px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+	color: #000000;
+	text-align: left;
+	padding: 20px;
+}
+
 #info {
+	line-height: 24px;
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 	font-size: 24px;
