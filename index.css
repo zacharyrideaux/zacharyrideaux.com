@@ -31,7 +31,8 @@ html {
 	font-size: 24px;
 	color: #000000;
 	text-align: left;
-	padding: 20px;
+	padding-left: 20px;
+	padding-right:100px;
 }
 
 #smiley {
