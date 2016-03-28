@@ -33,8 +33,9 @@ body {
 	font-weight: 300;
 	font-size: 24px;
 	color: #000000;
-	text-align: left;
-	padding-right:100px;
+	text-align: justify;
+	text-justify: inter-word;
+	padding-right:5%;
 }
 
 #smiley {
