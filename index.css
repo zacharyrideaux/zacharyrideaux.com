@@ -5,11 +5,12 @@ html {
 }
 
 #header {
-	font-family: 'Raleway', sans-serif;
-	font-weight: 700;
-	font-size: 64px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 32px;
 	color: #000000;
-	text-align: center;
+	text-align: left;
+	padding: 20px;
 }
 
 #info {
@@ -17,7 +18,8 @@ html {
 	font-weight: 300;
 	font-size: 24px;
 	color: #000000;
-	text-align: center;
+	text-align: left;
+	padding: 20px;
 }
 
 #smiley {
