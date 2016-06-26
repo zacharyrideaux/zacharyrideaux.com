@@ -5,8 +5,9 @@ html {
 }
 
 #text-info {
-	padding-left: 2%;
+	padding-right: 2%;
 	padding-top: 20px;
+	text-align: right;
 }
 
 #header {
@@ -15,7 +16,6 @@ html {
 	font-weight: 300;
 	font-size: 32px;
 	color: #000000;
-	text-align: left;
 }
 
 #links {
@@ -24,7 +24,6 @@ html {
 	font-weight: 300;
 	font-size: 24px;
 	color: #000000;
-	text-align: left;
 }
 
 #info {
