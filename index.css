@@ -11,7 +11,7 @@ html {
 }
 
 #header {
-	line-height: 6px;
+	line-height: 12px;
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 	font-size: 32px;
@@ -19,7 +19,7 @@ html {
 }
 
 #links {
-	line-height: 6px;
+	line-height: 12px;
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 	font-size: 20px;
@@ -34,6 +34,7 @@ html {
 }
 
 #copyright {
+	padding-top: 95%
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 	font-size: 20px;
