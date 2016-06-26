@@ -33,3 +33,10 @@ html {
 	color: #000000;
 }
 
+#copyright {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	color: #000000;
+	padding-left: 70%;
+}
