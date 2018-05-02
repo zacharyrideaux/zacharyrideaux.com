@@ -1,65 +1,13 @@
-@charset "UTF-8";
-
-html {
-	text-align: center;
-	
-	background: #edeae1;
+body {
+	background-color: #212121;
 }
-
-/*links-start*/
-a:link {
-	text-decoration: none;
-	color: #AD1457;
+#idZACHARY {
+	color: #FFFFFF;
 }
-
-a:hover {
-	text-decoration: none;
-	color: #880E4F;
+#idRIDEAUX {
+	color: #ec008c;
 }
-/*links-end*/
-
-/*header-start*/
-#idheader {
-	background: #AD1457;
-	width: 100%;
+#idCaption {
+	color: #6d6d6d;
+	font-size: 100%;
 }
-
-	#idtitle {
-		font-family: 'Roboto Condensed', sans-serif;
-		font-weight: 700;
-		font-style: italic;
-		font-size: 60pt;
-		color: #ffffff;	
-		height: 38pt;
-	}
-
-	#idlinks {
-		font-family: 'Roboto Condensed', sans-serif;
-		font-weight: 400;
-		font-style: italic;
-		font-size: 18pt;
-		background: #ffffff;
-	}
-/*header-end*/
-
-/*content-start*/
-#idcontent {
-	font-family: 'Roboto Condensed', sans-serif;
-	font-weight: 200;
-	font-style: normal;
-	font-size: 21pt;
-	padding-left: 25%;
-	padding-right: 25%;
-	text-align: justify;
-}
-/*content-end*/
-
-/*footer-start*/
-#idfooter {
-	font-family: 'Roboto Condensed', sans-serif;
-	font-weight: 100;
-	font-style: normal;
-	font-size: 14pt;
-	color: #AD1457;
-}
-/*footer-end*/
