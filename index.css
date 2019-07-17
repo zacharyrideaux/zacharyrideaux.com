@@ -8,11 +8,12 @@ body {
 p {
 	padding: 1%;
 	margin: 0%;
+	font-kerning: auto;
 }
 
 #name {
 	font-size: 48pt;
-	font-weight: 700;
+	font-weight: 800;
 }
 
 .pink {
