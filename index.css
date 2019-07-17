@@ -1,13 +1,19 @@
 body {
 	background-color: #212121;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	color: white;
 }
-#idZACHARY {
-	color: #FFFFFF;
+
+p {
+	padding: 1%;
 }
-#idRIDEAUX {
+
+#name {
+	font-size: 48pt;
+	font-weight: 700;
+}
+
+.pink {
 	color: #ec008c;
-}
-#idCaption {
-	color: #6d6d6d;
-	font-size: 100%;
 }
