@@ -1,21 +1,13 @@
-body {
-	background-color: #212121;
-	font-family: 'Montserrat', sans-serif;
-	text-align: center;
-	color: white;
+#body a {
+	padding: 0px 15px 0px 15px;
+	text-decoration: none;
+	text-shadow: 0px 0px 5px #000000;
+	font-size: 14pt;
+	color: #FFFFFF;
+  transition: color .4s;
+  -webkit-transition: color .4s;
 }
 
-p {
-	padding: 1%;
-	margin: 0%;
-	font-kerning: auto;
-}
-
-#name {
-	font-size: 48pt;
-	font-weight: 800;
-}
-
-.pink {
+#body a:hover {
 	color: #ec008c;
 }
