@@ -12,6 +12,22 @@ h1 {
 	font-weight: 800;
 }
 
+h3 {
+	font-weight: 700;
+	font-size: 12pt;
+	color: #EC008C;
+	margin: 0px;
+	padding: 0px 0px 10px 0px;
+}
+
+h4 {
+	font-weight: 500;
+	font-size: 14pt;
+	color: #000000;
+	padding: 0px;
+	margin: 0px;
+}
+
 p, h2 {
 	padding: 0px;
 	margin: 0px;
@@ -43,7 +59,8 @@ a {
 }
 
 #body {
-	height: 76vh;
+	min-height: 76vh;
+	height: auto;
 
 	display: flex;
 	justify-content: center;
