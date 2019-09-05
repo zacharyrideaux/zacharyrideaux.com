@@ -51,7 +51,7 @@ a {
 
 	color: #212121;
 	background-color: #212121;
-	background-image: url('resources/dot-banner.png');
+	background-image: url('../resources/dot-banner.png');
 	background-size: 50%;
 
 	overflow: auto;
