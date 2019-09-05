@@ -1,0 +1,11 @@
+.content-box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: left;
+}
+
+.content {
+  height: 100%;
+  width: 80%;
+}
