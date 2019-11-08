@@ -1,0 +1,21 @@
+.content-box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: left;
+	height: 76vh;
+	overflow-y: scroll;
+}
+
+.content {
+  height: 100%;
+  width: 80%;
+}
+
+h2 {
+	padding-top: 40px;
+}
+
+#fox-logo {
+	padding-bottom: 10px;
+}

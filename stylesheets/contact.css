@@ -2,10 +2,19 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	text-align: left;
+	text-align: center;
 }
 
 .content {
   height: 100%;
   width: 80%;
+}
+
+
+
+form {}
+
+input {
+	width: 80%;
+	margin-bottom: 20px;
 }
