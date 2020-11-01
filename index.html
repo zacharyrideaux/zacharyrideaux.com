@@ -1,36 +1,168 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-	<head>
-		<meta charset="utf-8">
-		<title>Zachary Rideaux</title>
-		<link rel="stylesheet" href="stylesheets/master.css">
-		<link rel="stylesheet" href="stylesheets/index.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,800&display=swap" rel="stylesheet">
-	</head>
-	<body>
-		<div id="heading">
-			<h1>
-				<a href="index.html">
-					<span id="first-name">ZACHARY </span>
-					<span id="last-name">RIDEAUX</span>
-				</a>
-			</h1>
-		</div>
-		<div id="body">
-			<a href="resume.html">Resume</a>
-			<!-- <a href="work.html">Work</a> -->
-			<!-- <a href="contact.html">Contact</a> -->
-		</div>
-		<div id="footer">
-			<div id="socials">
-				<a href="https://github.com/zrschool" target="_blank" class="fa fa-github"></a>
-				<a href="https://www.linkedin.com/in/zachary-rideaux/" target="_blank" class="fa fa-linkedin"></a>
-				<a href="https://twitter.com/zacharyrideaux" target="_blank" class="fa fa-twitter"></a>
-			</div>
-			<div id="other">
-				<p>© 2019 Zachary Rideaux</p>
-			</div>
-		</div>
-	</body>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Roboto+Mono&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div id="sidebar">
+      <div id="initials">
+        <span id="initial-z">Z</span>
+        <span id="initial-r">R</span>
+      </div>
+      <div id="sidebar-buttons">
+        <button id="about-tab" class="tab-button" onclick="openTab(event, 'about')">About</button>
+        <button id="experience-tab" class="tab-button" onclick="openTab(event, 'experience')">Experience</button>
+        <button id="projects-tab" class="tab-button" onclick="openTab(event, 'projects')">Projects</button>
+      </div>
+      <div id="media-links">
+        <a href="https://github.com/zrideaux" class="fa fa-github social-icon" alt="GitHub"></a>
+        <a href="https://www.linkedin.com/in/zachary-rideaux/" target="_blank" class="fa fa-linkedin social-icon"></a>
+      </div>
+    </div>
+
+    <div id="content" tabindex="0">
+      <div id="about" class="tab-content">
+        <h1>About Me</h1>
+        <hr>
+        <h3>Hello!</h3>
+        <p>
+					Hi there! I am a California-based computer science student at UC Irvine with
+					a passion for creating! I have always loved to make things that help or
+					entertain others, meaning that I have had a lot of time to expose myself
+					to a number of creative tools, mediums, and practices. On this site, you
+					can find a few examples of my work, read about some of my career
+					experiences, and find some information on where to find me!
+				</p>
+        <ul>
+          <li>This summer I served as a STEP intern at Google, where I worked with Google engineers and other interns to create interactive web applications and grow my software engineering skills.</li>
+					<li>Last summer I was 1 of 30 high school students chosen to attend Google's CSSI program at their Mountain View campus.</li>
+					<li>I've created videos and graphics for livestreamers which have drawn millions of views.</li>
+        </ul>
+        <p>Check out the Projects and Experience tabs to learn about my work in more detail!</p>
+      </div>
+
+      <div id="experience" class="tab-content">
+        <h1>Experience</h1>
+        <hr>
+        <h3>Google STEP Intern
+          <span class="tool html-tag">html</span>
+          <span class="tool css-tag">css</span>
+          <span class="tool javascript-tag">javascript</span>
+          <span class="tool appengine-tag">app engine</span>
+          <span class="tool java-tag">java</span>
+        </h3>
+        <span class="subtitle">&#62; 15 Jun 2020 - 04 Sep 2020</span>
+        <p>I am currently serving as a STEP Intern at Google!</p>
+
+        <h3>
+          Google CSSI Alum
+          <span class="tool html-tag">html</span>
+          <span class="tool css-tag">css</span>
+          <span class="tool python-tag">python</span>
+          <span class="tool appengine-tag">app engine</span>
+        </h3>
+        <span class="subtitle">&#62; 14 Jul 2019 - 03 Aug 2019</span>
+        <p>I was chosen to participate in Google's Computer Science Summer Institute program in the summer of 2019! During CSSI I was able to work with a host of Googlers to become familiar with several technologies crucial to web development. I also got the opportunity to work with a small team to create an original webapp and experienced Google culture for the first time!</p>
+
+        <h3>
+          Digital Learning Student Technology Consultant @ UC Irvine
+          <span class="tool premierepro-tag">premiere pro</span>
+          <span class="tool html-tag">html</span>
+        </h3>
+        <span class="subtitle">&#62; Feb 2020 - Jun 2020 | 01 Oct 2020 - Present</span>
+        <p>I serve as a video editor for UC Irvine's Department of Teaching Excellence and Innovation. In this role I help produce lecture materials for hybrid and online college courses. In addition to editing, I have also had the opportunity to interact with course material more directly, such as assisting staff with course websites.</p>
+
+        <h3>
+          Freelance Video Editor and Graphic Designer
+          <span class="tool premierepro-tag">premiere pro</span>
+          <span class="tool photoshop-tag">photoshop</span>
+          <span class="tool aftereffects-tag">after effects</span>
+          <span class="tool illustrator-tag">illustrator</span>
+        </h3>
+        <span class="subtitle">&#62; 2015 - 15 Jun 2020 | 04 Sep 2020 - Present</span>
+        <p>Over the past few years, I have done a plethora of recurring and one-off jobs as a video editor and graphic designer for various online personalities. In the process, I've developed proficiency with Adobe creative software and have created content that has drawn in several million views.</p>
+      </div>
+
+      <div id="projects" class="tab-content">
+        <h1>Projects</h1>
+        <hr>
+        <h2>Programming</h2>
+        <section>
+          <h3>
+            Centralize
+            <span class="tool javascript-tag">javascript</span>
+            <span class="tool java-tag">java</span>
+            <span class="tool html-tag">html</span>
+            <span class="tool css-tag">css</span>
+            <span class="tool appengine-tag">app engine</span>
+          </h3>
+          <p>
+            During my Google STEP internship,  I worked with 2 other interns to
+            create an interactive webapp called Centralize, which allows users
+            to easily find and post resources for contribuiting to important
+            causes. I personally implemented user authentication, several front
+            end and user experience aspects, as well as a community voting
+            system and algorithm which served as components of several other
+            features.
+          </p>
+        </section>
+        <section>
+          <h3>
+            Porfolio Site
+            <span class="tool javascript-tag">javascript</span>
+            <span class="tool java-tag">java</span>
+            <span class="tool html-tag">html</span>
+            <span class="tool css-tag">css</span>
+            <span class="tool appengine-tag">app engine</span>
+          </h3>
+          <p>
+            Using a combination of several technologies I am creating an
+            interactive portfolio site as one of my Google STEP Intern starter
+            projects. In addition to various accessibility considerations, the
+            original site included a comment section that demonstrated
+            interacting with a back-end to create, read, and delete data on the
+            site.
+          </p>
+        </section>
+        <section>
+          <h3>
+            Highlight Helper
+            <span class="tool javascript-tag">javascript</span>
+            <span class="tool html-tag">html</span>
+            <span class="tool css-tag">css</span>
+            <span class="tool electron-tag">electron</span>
+          </h3>
+          <p>
+            Highlight Helper is a project I am currently working on which serves
+            as a way to track notable moments during an event, livestream, or
+            recording session. The app does so by allowing users to easily
+            identify spans of time using nested timers. I plan to allow users to
+            export these time intervals to CSV files and would like to
+            incorporate the Twitch API in order to allow them to automatically
+            download these video segments.
+          </p>
+        </section>
+        <section>
+          <h3>
+            now-playing-element
+            <span class="tool javascript-tag">javascript</span>
+            <span class="tool html-tag">html</span>
+            <span class="tool css-tag">css</span>
+          </h3>
+          <p>
+            now-playing-element was a project which utilized the Last.fm API in
+            order to give livestreamers a sleek and customizable way to create
+            a dynamic visual which credits musicians in realtime.
+          </p>
+        </section>
+      </div>
+    <script>reopenTab(); defaultTab();</script>
+    </div>
+  </body>
 </html>
